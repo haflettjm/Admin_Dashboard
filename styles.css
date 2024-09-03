@@ -1,2 +1,88 @@
-announcement > .userpfp {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    background-color: gray;
+    color: greenyellow;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+nav {
+  grid-column: 1/4;
+  width: 90%;
+  display: flex;
+  justify-content: ;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  background-color: black;
+  justify-content: center;
+  display: flexbox;
+  margin: 0 4px 0 0;
+}
+
+.topHeader{
+  width: 100%;
+  display: flex;
+  flex: 3;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 1rem, 0;
+}
+
+.botHeader{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.search input{
+  border: 1px black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%;
+}
+.profile{
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.profile img{
+  width: 50px;
+  height: min-content;
+  padding: 0 1rem;
+  border-radius: 50%;
+}
+.profile h4{
+  padding: 2px 1rem;
+}
+
+
+.welcome{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+}
+.welcomeName{
+  display: flex;
 }
