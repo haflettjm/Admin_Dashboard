@@ -3,7 +3,7 @@
 body {
     width: 100vw;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 100px);
     background-color: gray;
     color: greenyellow;
@@ -12,13 +12,20 @@ body {
 }
 
 nav {
-  grid-column: 1/4;
+  grid-column: 1/2;
   width: 90%;
   display: flex;
-  justify-content: ;
+  flex: 1;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  text-align: start;
 }
+
+main{
+  grid-column: 2/7;
+}
+
 
 .header{
   background-color: black;
